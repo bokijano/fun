@@ -86,12 +86,17 @@ class Movies extends Component {
   };
 
   addToFavorites = id => {
-    let addMovie = this.state.movies.filter(add => {
-      return add.id !== id;
+    let delMovie = this.state.movies.filter(del => {
+      return del.id !== id;
     });
+    let addMovie = this.state.movies.find(add => {
+      return add.id === id;
+    });
+    let emptyMovies = [...this.state.emptyMovies, addMovie];
 
     this.setState({
-      movies: addMovie
+      movies: delMovie,
+      emptyMovies: emptyMovies
     });
   };
 

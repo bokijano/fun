@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import QuizNavbar from "./QuizNavbar";
 import { BrowserRouter, Route } from "react-router-dom";
-import AutoQuiz from "./AutoQuiz";
-import FootballQuiz from "./FootballQuiz";
+import AutoQuiz from "./AutoQuiz/AutoQuiz";
+import FootballQuiz from "./FootballQuiz/FootballQuiz";
 
 class Quizes extends Component {
   state = {};

@@ -36,7 +36,7 @@ class AddFavoriteMovie extends Component {
 
           <label htmlFor="name">Main actor:</label>
           <input
-            style={{ marginLeft: "12px" }}
+            className="actorStyle"
             type="text"
             name="mainActor"
             placeholder="Add main actor in the movie"
@@ -46,7 +46,7 @@ class AddFavoriteMovie extends Component {
 
           <label htmlFor="name">Years of filming:</label>
           <input
-            style={{ marginLeft: "-26px" }}
+            className="yearStyle"
             type="number"
             name="year"
             placeholder="Add the year when the movie is filmed"
@@ -55,7 +55,7 @@ class AddFavoriteMovie extends Component {
 
           <label htmlFor="name">Genre: </label>
           <select
-            style={{ marginLeft: "44px" }}
+            className="genreStyle"
             name="genre"
             onChange={this.handleChange}
           >

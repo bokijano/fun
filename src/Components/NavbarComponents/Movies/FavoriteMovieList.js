@@ -1,28 +1,18 @@
 import React from "react";
 
-const FavoriteMovieList = ({ addFilm, movie, handleDelete }) => {
+const FavoriteMovieList = ({ movie, handleDelete }) => {
   const movieList =
     movie.length > 0 ? (
       movie.map(add => (
         <div key={add.id}>
           <p>
-            <span style={{ backgroundColor: "grey", marginLeft: "20px" }}>
-              {" "}
-              Movie:
-            </span>{" "}
-            {add.name}{" "}
-            <span style={{ backgroundColor: "grey", marginLeft: "20px" }}>
-              Main actor:
-            </span>{" "}
-            {add.mainActor}
-            <span style={{ backgroundColor: "grey", marginLeft: "20px" }}>
-              Year:
-            </span>{" "}
-            {add.year}{" "}
-            <span style={{ backgroundColor: "grey", marginLeft: "20px" }}>
-              Genre:
-            </span>{" "}
-            {add.genre}{" "}
+            <span className="favouriteStyle"> Movie:</span> {add.name}
+            {", "}
+            <span className="favouriteStyle">Main actor:</span> {add.mainActor}
+            {", "}
+            <span className="favouriteStyle">Year:</span> {add.year}
+            {", "}
+            <span className="favouriteStyle">Genre:</span> {add.genre}
             <button
               style={{ marginLeft: "150px" }}
               className="btn btn-primary"
