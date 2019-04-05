@@ -1,0 +1,122 @@
+.recomendedMovies {
+  float: left;
+  max-width: 300px;
+  margin-left: 30px;
+  margin-top: 10px;
+  background-image: url("../pictures/film1.jpg");
+  padding: 10px;
+  border: 3px solid #333;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  box-shadow: 5px 5px 12px #333;
+  font-weight: bolder;
+}
+
+.moviesLook {
+  max-width: 100%;
+  margin-left: 100%;
+}
+
+.movieLooking {
+  background-image: url("../pictures/film1.jpg");
+}
+
+button {
+  box-shadow: 5px 5px 10px dodgerblue;
+}
+
+.addingLook {
+  float: left;
+  width: 40%;
+  margin-left: 30px;
+  margin-top: -400px;
+  padding: 10px;
+  border: 3px solid #333;
+  border-radius: 20px;
+  box-shadow: 5px 5px 12px #333;
+  font-weight: bolder;
+  background: whitesmoke;
+}
+
+label {
+  padding-left: 30px;
+  padding-right: 50px;
+}
+
+input,
+select {
+  width: 300px;
+}
+
+.favoriteList {
+  float: left;
+  width: 55%;
+  margin-left: 600px;
+  margin-top: -340px;
+  padding: 10px;
+  border: 3px solid #333;
+  border-radius: 20px;
+  box-shadow: 5px 5px 12px #333;
+  font-weight: bolder;
+  background: whitesmoke;
+}
+
+.gridLook {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.actorStyle {
+  margin-left: 12px;
+}
+.yearStyle {
+  margin-left: -26px;
+}
+.genreStyle {
+  margin-left: 44px;
+}
+.favouriteStyle {
+  background-color: dodgerblue;
+  color: whitesmoke;
+  margin-left: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .recomendedMovies {
+    margin-left: 5px;
+  }
+  .gridLook {
+    width: 95vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .favoriteList {
+    width: 95vw;
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-left: 0;
+    margin-top: 10px;
+  }
+  .addingLook {
+    width: 95vw;
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-left: 0;
+    margin-top: 10px;
+  }
+  .moviesLook {
+    max-width: 0;
+    margin-left: 0;
+  }
+  .actorStyle {
+    margin-left: 0;
+  }
+  .yearStyle {
+    margin-left: 0;
+  }
+  .genreStyle {
+    margin-left: 0;
+  }
+  .favouriteStyle {
+    margin-left: 0;
+  }
+}
