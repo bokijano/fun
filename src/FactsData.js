@@ -2,8 +2,7 @@ const FactsData = [
   {
     id: 1,
     fact:
-      "The world's first semaphore was set up in the United States of America in Cleveland in 1914 on the corner of Euclid Avenue and East 105. The traffic light set-up helped control the chaos on American roads that came about because of cars, pedestrians, bicycles, horses and trams",
-    img: "factsPicture/1.jpg"
+      "The world's first semaphore was set up in the United States of America in Cleveland in 1914 on the corner of Euclid Avenue and East 105. The traffic light set-up helped control the chaos on American roads that came about because of cars, pedestrians, bicycles, horses and trams"
   },
   {
     id: 2,

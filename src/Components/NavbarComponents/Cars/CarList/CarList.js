@@ -1,11 +1,10 @@
 import React, { Component } from "react";
 import Car from "./../Car/Car";
-import CarData from "../../../../carData";
-import "./CarList.css";
+import carData from "../../../../carData";
 
 class CarList extends Component {
   state = {
-    cars: CarData
+    cars: carData
   };
   render() {
     return (
