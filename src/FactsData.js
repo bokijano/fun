@@ -9,36 +9,36 @@ const FactsData = [
     id: 2,
     fact:
       "The first traffic accident in the world was recorded in 1769. The car is still preserved in a broken state.",
-    img: "factsPicture/2.jpg"
+    img: "./factsPicture/2.jpg"
   },
   {
     id: 3,
     fact:
       "In 1896, the first death was recorded as a result of a traffic accident",
-    img: "factsPicture/3.jpg"
+    img: "../factsPicture/3.jpg"
   },
   {
     id: 4,
     fact:
       "In China, for $ 400, someone will drive your car to your house through all of the city crowds, while driving you to your destination by bike.",
-    img: "factsPicture/4.jpg"
+    img: "../factsPicture/4.jpg"
   },
   {
     id: 5,
     fact: "The car is the most recycled product in the world.",
-    img: "factsPicture/5.jpg"
+    img: "../factsPicture/5.jpg"
   },
   {
     id: 6,
     fact:
       "The most expensive car ever produced was the Buggati Royal Kellner Coupe. Price? Only $ 8.7 million",
-    img: "factsPicture/6.jpg"
+    img: "../factsPicture/6.jpg"
   },
   {
     id: 7,
     fact:
       "Rolls Royce's famous ghost statue is nicknamed Spirit of Ectasy, or Spirit of Ecstasy. Yeah, he's dealing with drugs.",
-    img: "factsPicture/7.jpg"
+    img: "../factsPicture/7.jpg"
   },
   {
     id: 8,
@@ -50,96 +50,96 @@ const FactsData = [
     id: 9,
     fact:
       "The oldest car that has been preserved to date has been produced in France in 1884. It has recently sold for $ 4.6 million at auction.",
-    img: "factsPicture/9.jpg"
+    img: "../factsPicture/9.jpg"
   },
   {
     id: 10,
     fact:
       "The record time it takes to change the complete car engine is 42 seconds. The record was set to Forda Escort in 1985.",
-    img: "factsPicture/10.jpg"
+    img: "../factsPicture/10.jpg"
   },
   {
     id: 11,
     fact: "Approximately 1 billion vehicles are active on the planet.",
-    img: "factsPicture/11.jpg"
+    img: "../factsPicture/11.jpg"
   },
   {
     id: 12,
     fact:
       "The car dashboard was in its original form a wooden board that protected the driver from the mud that horses were thrown while driving.",
-    img: "factsPicture/12.jpg"
+    img: "../factsPicture/12.jpg"
   },
   {
     id: 13,
     fact:
       "In France, alcotest is part of the obligatory equipment in every car.",
-    img: "factsPicture/13.jpg"
+    img: "../factsPicture/13.jpg"
   },
   {
     id: 14,
     fact:
       "The lowest legal car in the world high is only 48 centimeters. It's called Flatmobile.",
-    img: "factsPicture/14.jpg"
+    img: "../factsPicture/14.jpg"
   },
   {
     id: 15,
     fact: "While was in prison, Hitler sought a loan for Mercedes.",
-    img: "factsPicture/15.jpg"
+    img: "../factsPicture/15.jpg"
   },
   {
     id: 16,
     fact:
       "The most popular Volkswagen cars Passat, Polo and Jetta are named like the names of winds.",
-    img: "factsPicture/16.jpg"
+    img: "../factsPicture/16.jpg"
   },
   {
     id: 17,
     fact: "80% of cars in Albania are Mercedes.",
-    img: "factsPicture/17.jpg"
+    img: "../factsPicture/17.jpg"
   },
   {
     id: 18,
     fact:
       "In South Africa, BMW cars mount flame launchers for frequent attempts to steal.",
-    img: "factsPicture/18.jpg"
+    img: "../factsPicture/18.jpg"
   },
   {
     id: 19,
     fact:
       "People older than 75 in Japan need to have a special label on the back of the car.",
-    img: "factsPicture/19.jpg"
+    img: "../factsPicture/19.jpg"
   },
   {
     id: 20,
     fact: "Ferrari produces 14 cars each day.",
-    img: "factsPicture/20.jpg"
+    img: "../factsPicture/20.jpg"
   },
   {
     id: 21,
     fact: "Toyota produces 13,000 vehicles per day.",
-    img: "factsPicture/21.jpg"
+    img: "../factsPicture/21.jpg"
   },
   {
     id: 22,
     fact: "Every fourth car on the planet is produced in China.",
-    img: "factsPicture/22.jpg"
+    img: "../factsPicture/22.jpg"
   },
   {
     id: 23,
     fact:
       "Formula 1 can ride at the speed of 193 km / h by the tunnel ceiling. So much downforce produces its aerodynamics!",
-    img: "factsPicture/23.jpg"
+    img: "../factsPicture/23.jpg"
   },
   {
     id: 24,
     fact:
       "If the remote control key car is pressed 256 times, and if your car is not near, the key will stop working.",
-    img: "factsPicture/24.jpg"
+    img: "../factsPicture/24.jpg"
   },
   {
     id: 25,
     fact: "Formulas 1 use the same exhaust pipes as nuclear reactors.",
-    img: "factsPicture/25.jpg"
+    img: "../factsPicture/25.jpg"
   }
 ];
 

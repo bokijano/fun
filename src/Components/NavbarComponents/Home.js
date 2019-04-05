@@ -22,6 +22,7 @@ const Home = () => {
             style={{ paddingLeft: "100px" }}
             src={Smiley}
             alt="zvezda"
+            responsive
             fluid
           />
           <h2>QUIZ about World Cup Russia2018!</h2>
@@ -30,7 +31,7 @@ const Home = () => {
           <Image src={Zvezda} alt="zvezda" responsive rounded fluid />
         </Col>
         <Col xs={6} md={4}>
-          <Image src={Smiley} alt="zvezda" fluid />
+          <Image src={Smiley} alt="zvezda" responsive fluid />
           <h4>Interesting things about cars! Try to guess it?</h4>
         </Col>
       </Row>
@@ -43,6 +44,7 @@ const Home = () => {
               className="imgLook"
               src={DiceThree}
               alt="dice3"
+              responsive
               fluid
             />
           </Col>
@@ -52,15 +54,28 @@ const Home = () => {
               className="imgLook"
               src={DiceFive}
               alt="dice3"
+              responsive
               fluid
             />
           </Col>
           <Col xs={2}>
-            <Image className="imgLook" src={DiceTwo} alt="dice3" fluid />
+            <Image
+              className="imgLook"
+              src={DiceTwo}
+              alt="dice3"
+              responsive
+              fluid
+            />
             <h2 style={{ marginTop: "10px" }}>Fun!</h2>
           </Col>
           <Col xs={2}>
-            <Image className="imgLook" src={DiceSix} alt="dice3" fluid />
+            <Image
+              className="imgLook"
+              src={DiceSix}
+              alt="dice3"
+              responsive
+              fluid
+            />
             <h2 style={{ marginTop: "50px" }}>Dice games!</h2>
           </Col>
           <Col xs={2}>
@@ -69,6 +84,7 @@ const Home = () => {
               className="imgLook"
               src={DiceOne}
               alt="dice3"
+              responsive
               fluid
             />
           </Col>
@@ -78,6 +94,7 @@ const Home = () => {
               className="imgLook"
               src={DiceFour}
               alt="dice3"
+              responsive
               fluid
             />
           </Col>
@@ -87,16 +104,28 @@ const Home = () => {
       <div className="container-fluid">
         <Row>
           <Col xs={12} md={6}>
-            <Image className="movieLook" src={Film} alt="film-type" fluid />
+            <Image
+              className="movieLook"
+              src={Film}
+              alt="film-type"
+              responsive
+              fluid
+            />
             <h2 className="headingLook">What are your favorite movies?</h2>
           </Col>
 
           <Col style={{ float: "left", marginTop: "100px" }} xs={6} md={3}>
-            <Image className="carLook" src={Mercedes} alt="mercedes" fluid />
+            <Image
+              className="carLook"
+              src={Mercedes}
+              alt="mercedes"
+              responsive
+              fluid
+            />
           </Col>
 
           <Col style={{ float: "left", marginTop: "40px" }} xs={6} md={3}>
-            <Image className="carLook" src={Fica} alt="fica" fluid />
+            <Image className="carLook" src={Fica} alt="fica" responsive fluid />
             <h2 style={{ marginTop: "5px", marginLeft: "20px" }}>
               All about cars!
             </h2>

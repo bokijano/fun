@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import FactsData from "./FactsData";
+import FactsData from "../../../../FactsData";
 import InterestingFacts from "./InterestingFacts";
 import "./Facts.css";
 

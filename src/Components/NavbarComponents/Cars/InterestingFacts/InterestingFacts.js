@@ -7,7 +7,7 @@ class InterextingFacts extends Component {
     return (
       <div>
         <p className="paragraph-style">{fact}</p>
-        <Image className="image-style" src={img} rounded fluid />
+        <Image className="image-style" src={img} responsive rounded fluid />
       </div>
     );
   }
