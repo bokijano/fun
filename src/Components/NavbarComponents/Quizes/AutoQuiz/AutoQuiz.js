@@ -2,6 +2,9 @@ import React, { Component } from "react";
 import CarList from "./CarList";
 import CarQuestion from "./CarQuestion";
 import CorrAnswer from "./CorrAnswer";
+import Star from "./../quizPictures/car.jpg"
+import { Image } from "react-bootstrap";
+import "./AutoQuiz.css";
 
 class AutoQuiz extends Component {
   state = {
@@ -50,6 +53,7 @@ class AutoQuiz extends Component {
           nextQuestion={this.nextQuestion}
           handleSubmit={this.handleSubmit}
         />
+        <Image className="imageLook" src={Star} fluid />
       </div>
     );
   }

@@ -6,7 +6,7 @@ class CarList extends Component {
     const { questions, num } = this.props;
     const carList = questions.map(question => {
       return (
-        <div key={question.id}>
+        <div className="questionLook" key={question.id}>
           <p>{question.question}</p>
           <ol>
             <li>{question.answers[0]}</li>

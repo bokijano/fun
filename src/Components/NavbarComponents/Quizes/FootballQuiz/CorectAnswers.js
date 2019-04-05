@@ -23,10 +23,11 @@ class CorectAnswers extends Component {
       handleSubmit
     } = this.props;
     return (
-      <div>
+      <div className="answerLook">
         <form onSubmit={handleSubmit}>
           {num < question.length ? (
             <input
+              style={{ width: "50%", paddingLeft: "10%" }}
               value={correct}
               type="text"
               placeholder="Your answer"
@@ -42,19 +43,31 @@ class CorectAnswers extends Component {
               >
                 Next question
               </button>
-              <p style={{ marginTop: "10px" }}>{numCorrect} correct answers!</p>
+              <h4>
+                <span className="correctLook">{numCorrect}</span>
+              </h4>
+              <h5 style={{ marginTop: "-10px", marginBottom: "-10px", marginLeft: "-10px" }}>
+                correct answers!
+              </h5>
             </div>
           ) : (
             <div>
               <p>No more questions</p>
-              <button style={{marginRight: "10px"}} onClick={this.displayResult} className="btn btn-primary">
+              <button
+                style={{ marginRight: "10px" }}
+                onClick={this.displayResult}
+                className="btn btn-primary"
+              >
                 Your result
               </button>
               {this.state.displayRes ? (
                 <div>
-                  <p style={{ marginTop: "10px" }}>
-                    {numCorrect} correct answers!
-                  </p>
+                  <h4>
+                    <span className="correctLook">{numCorrect}</span>
+                  </h4>
+                  <h5 style={{ marginTop: "5px", marginLeft: "-10px" }}>
+                    correct answers!
+                  </h5>
                 </div>
               ) : null}
               <button onClick={this.refreshPage} className="btn btn-success">

@@ -2,6 +2,9 @@ import React, { Component } from "react";
 import FootballList from "./FootballList";
 import FootballQuestions from "./FootballQuestions";
 import CorectAnswers from "./CorectAnswers";
+import Russia from "./../quizPictures/2018russia.jpg";
+import { Image } from "react-bootstrap";
+import "./FootballQuiz.css";
 
 class FootballQuiz extends Component {
   state = {
@@ -23,15 +26,15 @@ class FootballQuiz extends Component {
   handleSubmit = e => {
     e.preventDefault();
     this.state.correct ==
-      this.state.question[this.state.num - 1].correctAnswer + 1
-        ? this.setState({
-            numCorrect: this.state.numCorrect + 1,
-            correct: ""
-          })
-        : this.setState({
-            numCorrect: this.state.numCorrect,
-            correct: ""
-          });
+    this.state.question[this.state.num - 1].correctAnswer + 1
+      ? this.setState({
+          numCorrect: this.state.numCorrect + 1,
+          correct: ""
+        })
+      : this.setState({
+          numCorrect: this.state.numCorrect,
+          correct: ""
+        });
   };
   render() {
     return (
@@ -46,6 +49,7 @@ class FootballQuiz extends Component {
           handleChange={this.handleChange}
           handleSubmit={this.handleSubmit}
         />
+        <Image className="imageLook" src={Russia} fluid />
       </div>
     );
   }
