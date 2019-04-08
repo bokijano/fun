@@ -17,7 +17,7 @@ class App extends Component {
       <BrowserRouter>
         <div>
           <CustomNavbar />
-          <Route exact path="/" component={Home} />
+          <Route exact path="/home" component={Home} />
 
           <Route path="/autoQuiz" component={AutoQuiz} />
           <Route path="/footballQuiz" component={FootballQuiz} />
