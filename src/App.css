@@ -29,39 +29,59 @@ a {
   color: dodgerblue;
 }
 
-h2,
-h4 {
+.quiz-look {
+  margin-top: 30px;
+  border: 2pz solid #333;
+  border-radius: 5px;
+  padding: 5px;
+  box-shadow: 10px 10px 10px #333;
+}
+
+h5,
+h3,
+h2 {
   text-align: center;
   font-weight: bolder;
   text-shadow: 5px 5px 10px #333;
 }
 
 .imgLook {
-  border: 2px solid #333;
-  border-radius: 10px;
-  max-width: 200px;
-  margin: 5px;
+  max-height: 300px;
+  border-radius: 5px;
   box-shadow: 10px 10px 10px #333;
 }
 
 .dicesLook {
-  margin-top: 50px;
+  margin-top: 20px;
 }
 
 .movieLook1 {
-  max-width: 600px;
-  margin-left: auto;
-  margin-right: auto;
+  max-height: 300px;
+  margin-top: 20px;
+  margin-left: 30px;
+  margin-bottom: 20px;
   box-shadow: 10px 10px 10px #333;
+  border-radius: 10px;
 }
 
 .headingLook {
   text-align: center;
   margin-top: -100px;
+  margin-left: -40px;
   color: black;
   font-weight: bolder;
   text-shadow: 5px 5px 10px white;
 }
 .carLook1 {
   box-shadow: 10px 10px 10px #333;
+}
+
+@media screen and (max-width: 768px) {
+  .movieLook1 {
+    max-height: 200px;
+    margin-left: 20px;
+  }
+  .headingLook {
+    margin-left: 0px;
+  }
 }

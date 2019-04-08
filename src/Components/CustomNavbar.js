@@ -53,7 +53,7 @@ class CustomNavbar extends Component {
             <NavDropdown
               style={{ marginLeft: "30px" }}
               className="brandLook"
-              title="Quizes"
+              title="Quiz"
               id="collasible-nav-dropdown"
             >
               <NavDropdown.Item>

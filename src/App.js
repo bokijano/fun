@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import CustomNavbar from "./Components/CustomNavbar";
 import { BrowserRouter, Route } from "react-router-dom";
-import Home from "./Components/NavbarComponents/Home";
+import Home from "./Components/Home";
 import AutoQuiz from "./Components/NavbarComponents/Quizes/AutoQuiz/AutoQuiz";
 import FootballQuiz from "./Components/NavbarComponents/Quizes/FootballQuiz/FootballQuiz";
 import Get100 from "./Components/NavbarComponents/Games/Get100/Get100";
