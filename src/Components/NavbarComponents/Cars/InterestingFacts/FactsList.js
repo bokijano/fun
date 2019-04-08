@@ -37,9 +37,9 @@ class FactsList extends Component {
           we live in. Certainly, an interesting study to discuss at coffee time.
           Enjoy!
         </p>
-        <span onClick={this.handleFacts} className="btn-journey">
+        <h3 onClick={this.handleFacts} className="btn-journey">
           click and start the journey
-        </span>
+        </h3>
         {factsList}
       </div>
     );

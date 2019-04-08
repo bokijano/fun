@@ -11,7 +11,7 @@ import { Row, Col, Image } from "react-bootstrap";
 const Home = () => {
   return (
     <div className="container">
-      <Row style={{ marginTop: "50px" }}>
+      <Row style={{ marginTop: "70px" }}>
         <Col xs={4} md={4} className="quiz-look">
           <Image src={Smiley} alt="zvezda" responsive fluid />
           <h2>QUIZ!</h2>
