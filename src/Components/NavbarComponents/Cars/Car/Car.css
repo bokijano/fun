@@ -42,15 +42,15 @@
   border: 2px solid #333;
   border-radius: 25px;
   margin-top: -15px;
-  padding: 3px;
+  padding: 5px;
   box-shadow: 3px 3px 10px #333;
 }
 
 @media screen and (min-width: 769px) {
   .carLook {
-    height: 550px;
+    height: 600px;
   }
   .moreInfo {
-    height: 600px;
+    height: 650px;
   }
 }

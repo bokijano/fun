@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Car from "./../Car/Car";
 import carData from "../../../../carData";
+import "./CarList.css";
 
 class CarList extends Component {
   state = {

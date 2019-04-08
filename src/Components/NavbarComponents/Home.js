@@ -36,102 +36,106 @@ const Home = () => {
         </Col>
       </Row>
 
-      <div className="container">
-        <Row className="dicesLook">
-          <Col xs={2}>
-            <Image
-              style={{ marginTop: "80px" }}
-              className="imgLook"
-              src={DiceThree}
-              alt="dice3"
-              responsive
-              fluid
-            />
-          </Col>
-          <Col xs={2}>
-            <Image
-              style={{ marginTop: "50px" }}
-              className="imgLook"
-              src={DiceFive}
-              alt="dice3"
-              responsive
-              fluid
-            />
-          </Col>
-          <Col xs={2}>
-            <Image
-              className="imgLook"
-              src={DiceTwo}
-              alt="dice3"
-              responsive
-              fluid
-            />
-            <h2 style={{ marginTop: "10px" }}>Fun!</h2>
-          </Col>
-          <Col xs={2}>
-            <Image
-              className="imgLook"
-              src={DiceSix}
-              alt="dice3"
-              responsive
-              fluid
-            />
-            <h2 style={{ marginTop: "50px" }}>Dice games!</h2>
-          </Col>
-          <Col xs={2}>
-            <Image
-              style={{ marginTop: "50px" }}
-              className="imgLook"
-              src={DiceOne}
-              alt="dice3"
-              responsive
-              fluid
-            />
-          </Col>
-          <Col xs={2}>
-            <Image
-              style={{ marginTop: "80px" }}
-              className="imgLook"
-              src={DiceFour}
-              alt="dice3"
-              responsive
-              fluid
-            />
-          </Col>
-        </Row>
-      </div>
+      <Row className="dicesLook">
+        <Col xs={2} md={2}>
+          <Image
+            style={{ marginTop: "80px" }}
+            className="imgLook"
+            src={DiceThree}
+            alt="dice3"
+            responsive
+            fluid
+          />
+        </Col>
+        <Col xs={2} md={2}>
+          <Image
+            style={{ marginTop: "50px" }}
+            className="imgLook"
+            src={DiceFive}
+            alt="dice3"
+            responsive
+            fluid
+          />
+        </Col>
+        <Col xs={2} md={2}>
+          <Image
+            className="imgLook"
+            src={DiceTwo}
+            alt="dice3"
+            responsive
+            fluid
+          />
+          <h2 style={{ marginTop: "10px" }}>Fun!</h2>
+        </Col>
+        <Col xs={2} md={2}>
+          <Image
+            className="imgLook"
+            src={DiceSix}
+            alt="dice3"
+            responsive
+            fluid
+          />
+          <h2 style={{ marginTop: "50px" }}>Dice games!</h2>
+        </Col>
+        <Col xs={2} md={2}>
+          <Image
+            style={{ marginTop: "50px" }}
+            className="imgLook"
+            src={DiceOne}
+            alt="dice3"
+            responsive
+            fluid
+          />
+        </Col>
+        <Col xs={2} md={2}>
+          <Image
+            style={{ marginTop: "80px" }}
+            className="imgLook"
+            src={DiceFour}
+            alt="dice3"
+            responsive
+            fluid
+          />
+        </Col>
+      </Row>
 
-      <div className="container-fluid">
-        <Row>
-          <Col xs={12} md={6}>
-            <Image
-              className="movieLook"
-              src={Film}
-              alt="film-type"
-              responsive
-              fluid
-            />
-            <h2 className="headingLook">What are your favorite movies?</h2>
-          </Col>
+      <Row>
+        <Col xs={12} md={6}>
+          <Image
+            className="movieLook1"
+            src={Film}
+            alt="film-type"
+            responsive
+            fluid
+          />
+          <h2 className="headingLook">What are your favorite movies?</h2>
+        </Col>
 
-          <Col style={{ float: "left", marginTop: "100px" }} xs={6} md={3}>
-            <Image
-              className="carLook"
-              src={Mercedes}
-              alt="mercedes"
-              responsive
-              fluid
-            />
-          </Col>
+        <Col style={{ float: "left", marginTop: "100px" }} xs={6} md={3}>
+          <Image
+            className="carLook1"
+            src={Mercedes}
+            alt="mercedes"
+            responsive
+            fluid
+            rounded
+          />
+        </Col>
 
-          <Col style={{ float: "left", marginTop: "40px" }} xs={6} md={3}>
-            <Image className="carLook" src={Fica} alt="fica" responsive fluid />
-            <h2 style={{ marginTop: "5px", marginLeft: "20px" }}>
-              All about cars!
-            </h2>
-          </Col>
-        </Row>
-      </div>
+        <Col style={{ float: "left", marginTop: "40px" }} xs={6} md={3}>
+          <Image
+            className="carLook1"
+            src={Fica}
+            alt="fica"
+            responsive
+            fluid
+            rounded
+          />
+          <h2 style={{ marginTop: "5px", marginLeft: "20px" }}>
+            All about cars!
+          </h2>
+        </Col>
+      </Row>
     </div>
   );
 };

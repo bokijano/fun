@@ -48,7 +48,7 @@ class Car extends Component {
     const { image } = this.state;
     const { seeMoreInfo } = this.state;
     return (
-      <div>
+      <div className="container">
         <div className="carLook">
           <Image src={image[id - 1]} roundedCircle fluid />
           <h3>{name}</h3>

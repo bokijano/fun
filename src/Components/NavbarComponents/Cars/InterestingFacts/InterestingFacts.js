@@ -26,7 +26,7 @@ import Image_23 from "./factsPicture/23.jpg";
 import Image_24 from "./factsPicture/24.jpg";
 import Image_25 from "./factsPicture/25.jpg";
 
-class InterextingFacts extends Component {
+class InterestingFacts extends Component {
   state = {
     image: [
       Image_1,
@@ -74,4 +74,4 @@ class InterextingFacts extends Component {
   }
 }
 
-export default InterextingFacts;
+export default InterestingFacts;
