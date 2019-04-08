@@ -14,9 +14,9 @@ const Home = () => {
       <Row style={{ marginTop: "50px" }}>
         <Col xs={4} md={4} className="quiz-look">
           <Image src={Smiley} alt="zvezda" responsive fluid />
-          <h3>QUIZ!</h3>
-          <h5>Football!</h5>
-          <h5>Cars!</h5>
+          <h2>QUIZ!</h2>
+          <h3>Football!</h3>
+          <h3>Cars!</h3>
         </Col>
         <Col xs={4} md={4}>
           <Image
@@ -27,7 +27,7 @@ const Home = () => {
             responsive
             fluid
           />
-          <h3 style={{ marginTop: "10px" }}>Fun with</h3>
+          <h2 style={{ marginTop: "40px" }}>Fun with</h2>
         </Col>
         <Col xs={4} md={4}>
           <Image
@@ -38,7 +38,7 @@ const Home = () => {
             responsive
             fluid
           />
-          <h3 style={{ marginTop: "10px" }}>dices!</h3>
+          <h2 style={{ marginTop: "20px" }}>dices!</h2>
         </Col>
       </Row>
 
@@ -51,7 +51,7 @@ const Home = () => {
             responsive
             fluid
           />
-          <h3 className="headingLook">What are your favorite movies?</h3>
+          <h2 className="headingLook">What are your favorite movies?</h2>
         </Col>
 
         <Col style={{ float: "left", marginTop: "70px" }} xs={6} md={3}>
@@ -75,7 +75,7 @@ const Home = () => {
             fluid
             rounded
           />
-          <h3 style={{ marginTop: "20px" }}>about cars!</h3>
+          <h2 style={{ marginTop: "20px" }}>about cars!</h2>
         </Col>
       </Row>
     </div>

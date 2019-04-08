@@ -51,9 +51,9 @@ class Car extends Component {
       <div className="container">
         <div className="carLook">
           <Image src={image[id - 1]} roundedCircle fluid />
-          <h3>{name}</h3>
+          <h2>{name}</h2>
           <p>{infoOne}</p>
-          <h5 onClick={this.handleInfo}>see more</h5>
+          <h3 onClick={this.handleInfo}>see more</h3>
         </div>
         {seeMoreInfo ? (
           <div className="moreInfo">
@@ -67,7 +67,7 @@ class Car extends Component {
               src={image[id + 5]}
               fluid
             />
-            <p>{infoTwo}</p>
+            <p style={{ textAlign: "justify" }}>{infoTwo}</p>
             <Image
               style={{ width: "50%", padding: "0 5px" }}
               src={image[id + 8]}

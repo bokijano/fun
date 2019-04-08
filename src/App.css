@@ -1,11 +1,34 @@
+.fonOne {
+  font-family: "Dokdo", cursive;
+}
+.fontTwo,
+p {
+  font-family: "Roboto Slab", serif;
+}
+.fontThree {
+  font-family: "Inconsolata", monospace;
+}
+.fontFour {
+  font-family: "Lobster", cursive;
+}
+.fontFive {
+  font-family: "Merienda", cursive;
+}
+.fontSix {
+  font-family: "Righteous", cursive;
+}
+
 body {
   background-color: whitesmoke;
 }
 
 a {
   font-weight: bolder;
-  text-shadow: 1px 1px 1px;
-  font-size: 25px;
+  font-size: 35px;
+  font-family: "Dokdo", cursive;
+}
+a:hover {
+  font-family: "Roboto Slab", serif;
 }
 
 .brandLook {
@@ -43,6 +66,7 @@ h2 {
   text-align: center;
   font-weight: bolder;
   text-shadow: 5px 5px 10px #333;
+  font-family: "Dokdo", cursive;
 }
 
 .imgLook {
@@ -78,7 +102,7 @@ h2 {
 
 @media screen and (max-width: 768px) {
   .movieLook1 {
-    max-height: 200px;
+    max-height: 230px;
     margin-left: 20px;
   }
   .headingLook {
