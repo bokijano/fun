@@ -43,10 +43,10 @@ class CorrAnswer extends Component {
               >
                 Next question
               </button>
-              <h4>
-                <span className="correctLook">{numCorrect}</span>
-              </h4>
-              <h5 style={{ marginTop: "5px", marginLeft: "-10px" }}>
+              <h2>
+                <span className="correctLook1">{numCorrect}</span>
+              </h2>
+              <h5 style={{ marginTop: "15px", marginLeft: "-180px" }}>
                 correct answers!
               </h5>
             </div>
@@ -61,17 +61,17 @@ class CorrAnswer extends Component {
               </button>
               {this.state.displayRes ? (
                 <div>
-                  <h4>
-                    <span className="correctLook">{numCorrect}</span>
-                  </h4>
-                  <h5 style={{ marginTop: "5px", marginLeft: "-10px" }}>
+                  <h2>
+                    <span className="correctLook1">{numCorrect}</span>
+                  </h2>
+                  <h5 style={{ marginTop: "15px", marginLeft: "-200px" }}>
                     correct answers!
                   </h5>
                 </div>
               ) : null}
 
               <button onClick={this.refreshPage} className="btn btn-success">
-                Try again
+                Go to home page
               </button>
             </div>
           )}
