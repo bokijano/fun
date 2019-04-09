@@ -12,22 +12,36 @@ import Cars from "./Components/NavbarComponents/Cars/Cars";
 import "./App.css";
 
 class App extends Component {
+  state = {
+    displayHomePage: true
+  };
+  displayOtherPages = () => {
+    this.setState({
+      displayHomePage: false
+    });
+  };
   render() {
     return (
       <BrowserRouter>
         <div>
-          <CustomNavbar />
-          <Route exact path="/home" component={Home} />
+          <CustomNavbar displayOtherPages={this.displayOtherPages} />
+          {this.state.displayHomePage ? (
+            <Home />
+          ) : (
+            <div>
+              <Route exact path="/home" component={Home} />
 
-          <Route path="/autoQuiz" component={AutoQuiz} />
-          <Route path="/footballQuiz" component={FootballQuiz} />
+              <Route path="/autoQuiz" component={AutoQuiz} />
+              <Route path="/footballQuiz" component={FootballQuiz} />
 
-          <Route path="/get100" component={Get100} />
-          <Route path="/get201" component={Get201} />
-          <Route path="/2dice" component={TwoDice} />
+              <Route path="/get100" component={Get100} />
+              <Route path="/get201" component={Get201} />
+              <Route path="/2dice" component={TwoDice} />
 
-          <Route path="/movies" component={Movies} />
-          <Route path="/cars" component={Cars} />
+              <Route path="/movies" component={Movies} />
+              <Route path="/cars" component={Cars} />
+            </div>
+          )}
         </div>
       </BrowserRouter>
     );
