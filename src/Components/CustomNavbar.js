@@ -85,7 +85,7 @@ class CustomNavbar extends Component {
                 <Link
                   onClick={displayOtherPages}
                   className="dropLook"
-                  to="/autoQuiz"
+                  to="/footballQuiz"
                 >
                   Football quiz
                 </Link>
